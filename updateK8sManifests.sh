@@ -3,7 +3,7 @@
 set -x
 
 # Set the repository URL
-REPO_URL="https://knvwbjhw6tamydfvn573xci4zammyrao25fc5slceo3mxdy6elcq@dev.azure.com/fakoyaisaac/voting-app/_git/voting-app"
+REPO_URL="https://<token access key>@dev.azure.com/fakoyaisaac/voting-app/_git/voting-app"
 
 # Clone the git repository into the /tmp directory
 git clone "$REPO_URL" /tmp/temp_repo
